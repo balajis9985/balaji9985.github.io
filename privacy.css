@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Roboto:wght@700&display=swap');
+
+:root{
+  --blue: #080820;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Montserrat';
+  margin: 10px;
+  background-color: var(--blue);
+  color: white;
+}

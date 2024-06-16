@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Roboto:wght@700&display=swap');
+
+
+*{
+  margin: 8px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: 'Montserrat';
+  background-color: #080820;
+  color: white;
+}
+
+.logo{
+  margin-left: 15px;
+  display: inline;
+  font-weight: 1000;
+  width: 180px;
+  color: white;
+}
+.Home-bar{
+  display: inline;
+  font-size: 12px;
+}
+a{
+ padding: 12px 15px;
+ text-decoration: none;
+ color: silver;
+}
+a:hover{
+  color: #2176FF;
+}
+.inpt{
+  color: white;
+  height: 42px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 270px;
+}
+::placeholder{
+  color: #C0C0C0;
+  font-size: 15px;
+  font-family: 'Montserrat';
+}
+
+button{
+  background: transparent;
+  border: none;
+  color: #B1B1B1;
+  margin-right: 30px;
+  transition: color 1s;
+  overflow: hidden;
+}
+button:hover{
+  color: white;
+}
+
+.inpt1{
+  width: 200px;
+  height: 50px;
+}
+.abt{
+  color: #2176FF;
+  width: 185px;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.we-hel{
+  margin-top: 50px;
+  text-align: center;
+}
+.h4{
+  margin-top: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+.our-pic{
+  width: 30%;
+  position: absolute;
+  left: 600px;
+  top: 420px;
+  opacity: 75%;
+}
+.our-mis, .cult{
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.our-para, .cult-para{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 350px;
+  line-height: 30px;
+}
+.exp{
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 10px 20px 10px 20px;
+  background-color: #2176FF;
+  color: white;
+  font-weight: 500;
+}
+.join-us{
+  width: 30%;
+  position: absolute;
+  left: 50px;
+  top: 700px;
+  opacity: 75%;
+}
+.jon-us{
+  margin-top: 50px;
+  margin-left: 550px;
+}
+.jon-para{
+  margin-left: 550px;
+  margin-top: 30px;
+  width: 350px;
+  line-height: 30px;
+}
+.exp1{
+  margin-top: 10px;
+  margin-left: 550px;
+  padding: 10px 20px 10px 20px;
+  background-color: #2176FF;
+  color: white;
+  font-weight: 500;
+}
+footer{
+  display: inline;
+}
+.container,.container1,.container2{
+ color: white;
+}
+.rows{
+  position: absolute;
+  top: 1250px;
+  left: 20px;
+}
+.column a{
+  display: block;
+  width: 200px;
+}
+.rows1{
+  position: absolute;
+  top: 1250px;
+  left: 400px;
+}
+.column1 a{
+  display: block;
+  width: 200px;
+}
+.rows2{
+  position: absolute;
+  top: 1250px;
+  right: 50px;
+}

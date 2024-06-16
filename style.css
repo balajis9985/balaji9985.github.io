@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Roboto:wght@700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+body{
+  margin: 0px;
+  font-family: 'Montserrat';
+  background-color: #080820;
+}
+.nav{
+  overflow: hidden;
+  position: fixed;
+  background-color: #080820;
+  z-index: 2;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.logo{
+  margin-left: 15px;
+  display: inline;
+  font-weight: 1000;
+  width: 180px;
+  color: white;
+}
+.Home-bar{
+  display: inline;
+  font-size: 12px;
+}
+a{
+ padding: 12px 15px;
+ text-decoration: none;
+ color: silver;
+}
+a:hover{
+  color: #2176FF;
+}
+input{
+  color: white;
+  height: 42px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 240px;
+}
+::placeholder{
+  color: #C0C0C0;
+  font-size: 15px;
+  font-family: 'Montserrat';
+}
+.srch-btn{
+  background: transparent;
+  border: none;
+  color: #B1B1B1;
+  margin-right: 30px;
+  transition: color 1s;
+  overflow: hidden;
+}
+.srch-btn:hover{
+  color: white;
+}
+.st-con{
+  background: transparent;
+  font-weight: 600;
+  width: 130px;
+  font-size: 10px;
+  display: inline;
+  color: white;
+  padding: 11px;
+  border: 0.5px solid silver;
+}
+.st-con:hover{
+  color: #2176FF;
+  background-color: white;
+  border: 1px solid white;
+  
+}
+.text-1{
+  display: inline-block;
+  color: white;
+  width: 280px;
+  margin: 40px;
+  margin-top: 80px;
+  line-height: 27px;
+  font-size: 13px;
+}
+.st-con1{
+  display: block;
+  font-weight: 600;
+  width: 150px;
+  font-size: 10px;
+  color: white;
+  background-color: #2176FF;
+  padding: 11px;
+  margin-left: 40px;
+  border: 0.5px solid silver;
+}
+.st-con1:hover{
+  background-color: #080813;
+}
+.mid-head{
+  font-size: 25px;
+  text-align: center;
+  width: 140px;
+  color: white;
+  font-weight: 800;
+}
+.left{
+  display: inline-block;
+  
+}
+.mid{
+ display: inline-block;
+ position: absolute;
+ top: 90px;
+ width: 280px;
+ text-align: center;
+ 
+}
+.right{
+  display: inline-block;
+  position: absolute;
+  right: 120px;
+  top: 150px;
+}
+
+.right:hover{
+  border: none;
+  text-decoration: none;
+}
+.ply-cir{
+  color: #2176FF;
+}
+.mid .man{
+  position: absolute;
+  right: 5px;
+  width: 350px;
+  top: 150px;
+}
+.we-help{
+  margin-top: 60px;
+  padding: 50px;
+  position: absolute;
+  left: 50px;
+  top: 300px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  border: 0.1px solid white;
+  width: 200px;
+  height: 200px;
+}
+p3{
+  display: block;
+  text-align: center;
+}
+.five{
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+.we-rais{
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  padding: 50px 50px 50px 50px;
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  border: 0.1px solid white;
+  top: 650px;
+  left: 50px;
+}
+.we-inves{
+  position: absolute;
+  color: white;
+  right: 50px;
+  margin-top: 60px;
+  padding: 50px;
+  top: 300px;
+  text-align: center;
+  font-size: 14px;
+  border: 0.1px solid white;
+  width: 200px;
+  height: 200px;
+}
+.we-ve{
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  border: 0.1px solid white;
+  top: 650px;
+  right: 50px;
+  text-align: center;
+}
+footer{
+  display: inline;
+  
+}
+.container,.container1,.container2{
+ color: white;
+}
+.rows{
+  position: absolute;
+  top: 1000px;
+  left: 20px;
+}
+.column a{
+  display: block;
+  width: 200px;
+}
+.rows1{
+  position: absolute;
+  top: 1000px;
+  left: 400px;
+}
+.column1 a{
+  display: block;
+  width: 200px;
+}
+.rows2{
+  position: absolute;
+  top: 1000px;
+  right: 50px;
+}
